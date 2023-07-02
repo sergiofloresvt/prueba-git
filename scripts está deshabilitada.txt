@@ -1,0 +1,14 @@
+Ejecutamos "Windows PowerShell" como Admi
+-----------------------------------
+introduciomos el comando 
+Get-ExecutionPolicy -List 
+nos va mostas -undefined-  en todo.
+-----------------------------------
+comando
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+damos que S ( si)
+-----------------------------------
+comando para comprobar 
+Get-ExecutionPolicy -List
+Debe figuarar RemoteSigned.
+

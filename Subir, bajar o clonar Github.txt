@@ -1,0 +1,35 @@
+iniciamos el proyecto 
+ng serve -o
+-----------------------------------------
+creamos un nuevo repositorio en git
+Primero
+git init
+-----------------------------------------
+git add .
+-----------------------------------------
+git commit -m "primer commit"
+-----------------------------------------
+Agregamos nuestro remote creado en git hub 
+git remote add origin https://github.com/Serggiof/angular.zapatuli.git
+-----------------------------------------
+Comprobamos el remote
+git remote --v
+-----------------------------------------
+Ahora hacemos el push
+git push -u origin master
+-----------------------------------------
+Para actualizar el repositorio repetimos
+git add .
+-----------------------------------------
+git commit -m "nombre de este commit"
+-----------------------------------------
+Confirmamos
+git push -u origin master
+-----------------------------------------
+Para clonar un repositorio
+nos posisionamos en una carpeta x de nuestra pc. 
+damos  git bash here 
+
+
+
+
